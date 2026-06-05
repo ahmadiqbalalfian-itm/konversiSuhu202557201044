@@ -37,31 +37,31 @@ public class utama extends javax.swing.JFrame {
         /*4*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Fahrenheit"){
             hasil=suhuAsal*+0;
             //Reamur
-        /*5*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*5*/} else if (satuanAsal=="Reamur"&&satuanTujuan=="Reamur"){
             hasil=suhuAsal*0.8;
-        /*6*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*6*/} else if (satuanAsal=="Reamur"&&satuanTujuan=="Celcius"){
             hasil=suhuAsal*0.8;
-        /*7*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*7*/} else if (satuanAsal=="Reamur"&&satuanTujuan=="Kelvin"){
             hasil=suhuAsal*0.8;
-        /*8*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*8*/} else if (satuanAsal=="Reamur"&&satuanTujuan=="Fahrenheit"){
             hasil=suhuAsal*0.8;
             //Kelvin
-        /*9*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*9*/} else if (satuanAsal=="Kelvin"&&satuanTujuan=="Kelvin"){
             hasil=suhuAsal*0.8;
-        /*10*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*10*/} else if (satuanAsal=="Kelvin"&&satuanTujuan=="Reamur"){
             hasil=suhuAsal*0.8;
-        /*11*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*11*/} else if (satuanAsal=="Kelvin"&&satuanTujuan=="Celcius"){
             hasil=suhuAsal*0.8;
-        /*12*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*12*/} else if (satuanAsal=="Kelvin"&&satuanTujuan=="Fahrenheit"){
             hasil=suhuAsal*0.8;
             //Fahrenheit
-        /*13*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*13*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Fahrenheit"){
             hasil=suhuAsal*0.8;
-        /*14*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*14*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Reamur"){
             hasil=suhuAsal*0.8;
-        /*15*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*15*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Celcius"){
             hasil=suhuAsal*0.8;
-        /*16*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
+        /*16*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Kelvin"){
             hasil=suhuAsal*0.8;
         }
         
