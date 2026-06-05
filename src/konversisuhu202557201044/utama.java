@@ -33,9 +33,9 @@ public class utama extends javax.swing.JFrame {
         /*2*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
             hasil=suhuAsal*0.8;
         /*3*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Kelvin"){
-            hasil=suhuAsal+273;
+            hasil=suhuAsal*1.8+32;
         /*4*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Fahrenheit"){
-            hasil=suhuAsal*+0;
+            hasil=suhuAsal+273.15;
             //Reamur
         /*5*/} else if (satuanAsal=="Reamur"&&satuanTujuan=="Reamur"){
             hasil=suhuAsal*0.8;
