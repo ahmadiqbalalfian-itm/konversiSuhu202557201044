@@ -32,19 +32,19 @@ public class utama extends javax.swing.JFrame {
             hasil=suhuAsal;
         /*2*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Reamur"){
             hasil=suhuAsal*0.8;
-        /*3*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Kelvin"){
+        /*3*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Fahrenheit"){
             hasil=suhuAsal*1.8+32;
-        /*4*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Fahrenheit"){
+        /*4*/} else if (satuanAsal=="Celcius"&&satuanTujuan=="Kelvin"){
             hasil=suhuAsal+273.15;
             //Reamur
         /*5*/} else if (satuanAsal=="Reamur"&&satuanTujuan=="Reamur"){
             hasil=suhuAsal;
         /*6*/} else if (satuanAsal=="Reamur"&&satuanTujuan=="Celcius"){
-            hasil=suhuAsal*0.8;
+            hasil=suhuAsal*1.25;
         /*7*/} else if (satuanAsal=="Reamur"&&satuanTujuan=="Kelvin"){
-            hasil=suhuAsal*0.8;
+            hasil=suhuAsal*1.25+273.15;
         /*8*/} else if (satuanAsal=="Reamur"&&satuanTujuan=="Fahrenheit"){
-            hasil=suhuAsal*0.8;
+            hasil=suhuAsal*2.25+32;
             //Kelvin
         /*9*/} else if (satuanAsal=="Kelvin"&&satuanTujuan=="Kelvin"){
             hasil=suhuAsal;
