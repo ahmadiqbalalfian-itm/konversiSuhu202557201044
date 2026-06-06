@@ -55,13 +55,13 @@ public class utama extends javax.swing.JFrame {
         /*12*/} else if (satuanAsal=="Kelvin"&&satuanTujuan=="Fahrenheit"){
             hasil=(suhuAsal-273.15)*1.8+32;
             //Fahrenheit
-        /*13*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Fahrenheit"){
+        /*13*/} else if (satuanAsal=="Fahrenheit"&&satuanTujuan=="Fahrenheit"){
             hasil=suhuAsal;
-        /*14*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Reamur"){
+        /*14*/} else if (satuanAsal=="Fahrenheit"&&satuanTujuan=="Reamur"){
             hasil=(suhuAsal-32)*4/9;
-        /*15*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Celcius"){
-            hasil=suhuAsal-32;
-        /*16*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Kelvin"){
+        /*15*/} else if (satuanAsal=="Fahrenheit"&&satuanTujuan=="Celcius"){
+            hasil=(suhuAsal-32)*5/9;
+        /*16*/} else if (satuanAsal=="Fahrenheit"&&satuanTujuan=="Kelvin"){
             hasil=(suhuAsal-32)*5/9+273.15;
         }
         
