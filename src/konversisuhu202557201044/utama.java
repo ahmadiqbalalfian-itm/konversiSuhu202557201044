@@ -49,11 +49,11 @@ public class utama extends javax.swing.JFrame {
         /*9*/} else if (satuanAsal=="Kelvin"&&satuanTujuan=="Kelvin"){
             hasil=suhuAsal;
         /*10*/} else if (satuanAsal=="Kelvin"&&satuanTujuan=="Reamur"){
-            hasil=suhuAsal*0.8;
+            hasil=(suhuAsal-273.15)*0.8;
         /*11*/} else if (satuanAsal=="Kelvin"&&satuanTujuan=="Celcius"){
-            hasil=suhuAsal*0.8;
+            hasil=suhuAsal-273.15;
         /*12*/} else if (satuanAsal=="Kelvin"&&satuanTujuan=="Fahrenheit"){
-            hasil=suhuAsal*0.8;
+            hasil=(suhuAsal-273.15)*1.8+32;
             //Fahrenheit
         /*13*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Fahrenheit"){
             hasil=suhuAsal;
