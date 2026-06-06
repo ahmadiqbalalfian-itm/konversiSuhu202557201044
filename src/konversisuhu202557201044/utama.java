@@ -58,11 +58,11 @@ public class utama extends javax.swing.JFrame {
         /*13*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Fahrenheit"){
             hasil=suhuAsal;
         /*14*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Reamur"){
-            hasil=suhuAsal*0.8;
+            hasil=(suhuAsal-32)*4/9;
         /*15*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Celcius"){
-            hasil=suhuAsal*0.8;
+            hasil=suhuAsal-32;
         /*16*/} else if (satuanAsal=="Fahrentheit"&&satuanTujuan=="Kelvin"){
-            hasil=suhuAsal*0.8;
+            hasil=(suhuAsal-32)*5/9+273.15;
         }
         
         
