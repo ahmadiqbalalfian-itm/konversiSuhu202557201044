@@ -64,10 +64,9 @@ public class utama extends javax.swing.JFrame {
         /*16*/} else if (satuanAsal=="Fahrenheit"&&satuanTujuan=="Kelvin"){
             hasil=(suhuAsal-32)*5/9+273.15;
         }
-        
-        
         String derajat = satuanTujuan.substring(0,1);
-        tHasil.setText(String.valueOf(hasil)+"\u00B0"+derajat);
+//        tHasil.setText(String.valueOf(hasil)+"\u00B0"+derajat);
+        tHasil.setText(String.format("%.2f",hasil)+"\u00B0"+derajat);
     }
 
     /**
